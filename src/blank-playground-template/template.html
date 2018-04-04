@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Vue lab</title>
+  <style type="text/less">
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      padding-top:100px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="app">
+  </div>
+  <script src="http://localhost:9091/less/dist/less.js"></script>
+  <script src="http://localhost:9091/lodash.js"></script>
+  <script src="http://localhost:9091/chance.js"></script>
+  <script src="http://localhost:9091/d3/d3.js"></script>
+  <script src="http://localhost:9091/d3-etc/d3-selection-multi.v1.js"></script>
+  <script src="http://localhost:9091/vue.js"></script>
+  <script src="http://localhost:9091/vuex.v3.0.1.js"></script>
+
+
+  <script>
+    console.log( `
+      d3: version ${d3.version} </br>
+      chance.js: version ${chance.VERSION}
+      _: version ${_.VERSION} </br>
+      less: version ${less.version} </br>
+      Vue: version ${Vue.version} </br>
+      Vuex: version ${Vue.version} </br>
+    `);
+  </script>
+</body>
+
+</html>
