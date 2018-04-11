@@ -82,7 +82,7 @@ const vm = window.vm = new Vue({
   },
 
   beforeDestroy() {
-    window.clearInterval(_vm.createDataRef);
+    window.clearInterval(this.createDataRef);
   }
 })
 
